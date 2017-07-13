@@ -1,10 +1,10 @@
 {
-  "name": "tibco-kafkasub",
+  "name": "tibco-kafkasub3",
   "type": "flogo:trigger",
-  "ref": "github.com/aambhaik/kafkasubv2",
+  "ref": "github.com/aambhaik/kafkasubv3",
   "version": "0.0.1",
   "title": "Receive Kafka Messages",
-  "author": "aambhaik@tibco.com>",
+  "author": "aambhaik@tibco.com",
   "description": "Simple Kafka Trigger with conditional routing",
  "settings":[
     {

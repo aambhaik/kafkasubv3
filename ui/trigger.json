@@ -1,7 +1,7 @@
 {
-  "name": "tibco-kafkasubv2",
+  "name": "tibco-kafkasubv3",
   "type": "flogo:trigger",
-  "ref": "github.com/aambhaik/kafkasubv2",
+  "ref": "github.com/aambhaik/kafkasubv3",
   "version": "0.0.2",
   "title": "Subscribe to a Kafka topic",
   "description": "Simple Kafka subscriber trigger",
