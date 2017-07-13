@@ -1,0 +1,57 @@
+{
+  "name": "tibco-kafkasub",
+  "type": "flogo:trigger",
+  "ref": "github.com/aambhaik/kafkasubv2",
+  "version": "0.0.1",
+  "title": "Receive Kafka Messages",
+  "author": "aambhaik@tibco.com>",
+  "description": "Simple Kafka Trigger with conditional routing",
+ "settings":[
+    {
+      "name": "BrokerUrl",
+      "type": "string"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "message",
+      "type": "string"
+    }
+  ],
+  "handler": {
+    "settings": [
+      {
+        "name": "Topic",
+        "type": "string"
+      },
+      {
+        "name": "partitions",
+        "type": "string"
+      },
+      {
+        "name": "group",
+        "type": "string"
+      },
+      {
+        "name": "offset",
+        "type": "int"
+      },
+      {
+        "name": "user",
+        "type": "string"
+      },
+      {
+        "name": "password",
+        "type": "string"
+      },
+      {
+        "name": "truststore",
+        "type": "string"
+      },
+      {
+        "name": "Condition",
+        "type": "string"
+      }
+    ]
+  }
+}

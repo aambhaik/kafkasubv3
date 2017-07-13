@@ -1,0 +1,5 @@
+{
+  "name": "tibco-kafkasubv2",
+  "version": "0.0.2",
+  "description": "Trigger that subscribes to a Kafka topic and can route to flows based on content"
+}
